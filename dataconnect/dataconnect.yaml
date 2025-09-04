@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "cyberpunk-fixierun-pwa"
+location: "us-west1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "cyberpunk-fixierun-pwa-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./example"]

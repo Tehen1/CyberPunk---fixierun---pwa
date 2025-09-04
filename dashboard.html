@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixie Analytics Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <style>
+        .dashboard-container {
+            padding: 20px;
+            background: rgba(0, 243, 255, 0.1);
+        }
+        
+        .chart-container {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: rgba(255, 0, 255, 0.1);
+            border-radius: 8px;
+        }
+
+        .data-stream {
+            height: 300px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Fixie Analytics Dashboard</h1>
+        
+        <div class="chart-container">
+            <canvas id="pageViewsChart"></canvas>
+        </div>
+        
+        <div class="chart-container">
+            <canvas id="clicksChart"></canvas>
+        </div>
+        
+        <div class="data-stream" id="DataStream">
+            <h3>Recent Activity</h3>
+        </div>
+    </div>
+
+    <script src="src/js/tracking.js"></script>
+    <script>
+        // Initialize tracker
+        const tracker = new Tracker();
+
+        // Fetch and display page views
+        function updatePageViews() {
+            const ctx = document.getElementById('pageViewsChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                    datasets: [{
+                        label: 'Page Views',
+                        data: [65, 59, 80, 81, 56, 55, 40],
+                        borderColor: '#00f3ff',
+                        tension: 0.1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false
+                }
+            });
+        }
+
+        // Fetch and display clicks
+        function updateClicks() {
+            const ctx = document.getElementById('clicksChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Button 1', 'Button 2', 'Button 3', 'Button 4'],
+                    datasets: [{
+                        label: 'Clicks',
+                        data: [12, 19, 3, 5],
+                        backgroundColor: '#00f3ff',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false
+                }
+            });
+        }
+
+        // Initial data population
+        updatePageViews();
+        updateClicks();
+
+        // Update data periodically
+        setInterval(() => {
+            updatePageViews();
+            updateClicks();
+        }, 60000);
+
+        // Listen for new tracking events
+        tracker.events.addEventListener('add', (event) => {
+            const dataStream = document.getElementById('DataStream');
+            const entry = document.createElement('div');
+            entry.className = 'glitch-effect';
+            entry.textContent = JSON.stringify(event, null, 2);
+            dataStream.appendChild(entry);
+        });
+    </script>
+</body>
+</html>

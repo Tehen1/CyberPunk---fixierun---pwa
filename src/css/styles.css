@@ -1,0 +1,89 @@
+:root {
+    --neon-blue: #00f3ff;
+    --neon-pink: #ff00ff;
+    --dark-bg: #0a0a0a;
+    --cyber-font: 'Courier New', monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-bg);
+    color: #ffffff;
+    font-family: var(--cyber-font);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.glitch-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.glitch-effect {
+    position: relative;
+    animation: glitch 1s infinite;
+}
+
+@keyframes glitch {
+    0% { transform: translate(0) }
+    20% { transform: translate(-2px, 2px) }
+    40% { transform: translate(-2px, -2px) }
+    60% { transform: translate(2px, 2px) }
+    80% { transform: translate(2px, -2px) }
+    100% { transform: translate(0) }
+}
+
+h1, h2, h3 {
+    text-shadow: 0 0 10px var(--neon-blue),
+                  0 0 20px var(--neon-pink);
+    animation: glitch 1s infinite;
+}
+
+button {
+    background: transparent;
+    border: 2px solid var(--neon-blue);
+    color: var(--neon-blue);
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: rgba(0, 243, 255, 0.1);
+    border-color: var(--neon-pink);
+    color: var(--neon-pink);
+}
+
+.neon-input {
+    border: 2px solid var(--neon-blue);
+    color: var(--neon-blue);
+    padding: 10px;
+    background: transparent;
+}
+
+.neon-input:focus {
+    outline: none;
+    box-shadow: 0 0 10px var(--neon-blue);
+}
+
+.error {
+    color: #ff4444;
+    font-style: italic;
+}
+
+.success {
+    color: #44ff44;
+    font-style: italic;
+}
+
+.data-stream {
+    background: rgba(0, 243, 255, 0.1);
+    padding: 15px;
+    border-left: 3px solid var(--neon-blue);
+}

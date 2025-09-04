@@ -1,0 +1,623 @@
+[debug] [2025-08-24T02:35:34.135Z] ----------------------------------------------------------------------
+[debug] [2025-08-24T02:35:34.138Z] Command:       /opt/homebrew/Cellar/node/24.6.0/bin/node /opt/homebrew/bin/firebase init
+[debug] [2025-08-24T02:35:34.138Z] CLI Version:   14.14.0
+[debug] [2025-08-24T02:35:34.138Z] Platform:      darwin
+[debug] [2025-08-24T02:35:34.138Z] Node Version:  v24.6.0
+[debug] [2025-08-24T02:35:34.138Z] Time:          Sun Aug 24 2025 04:35:34 GMT+0200 (Central European Summer Time)
+[debug] [2025-08-24T02:35:34.138Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-24T02:35:34.141Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-24T02:35:34.141Z] > authorizing via signed-in user (dwtehen1@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/devtehen/Downloads/CyberPunk - fixierun - pwa
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-08-24T02:36:06.745Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:06.745Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:06.745Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2025-08-24T02:36:07.575Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2025-08-24T02:36:07.575Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2025-08-24T02:36:11.939Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:11.939Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:11.939Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/fixie-run:addFirebase [none]
+[debug] [2025-08-24T02:36:13.702Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/fixie-run:addFirebase 200
+[debug] [2025-08-24T02:36:13.702Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/fixie-run:addFirebase {"name":"operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj"}
+[debug] [2025-08-24T02:36:13.702Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:13.702Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:13.702Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj [none]
+[debug] [2025-08-24T02:36:16.527Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj 200
+[debug] [2025-08-24T02:36:16.527Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj {"name":"operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj"}
+[debug] [2025-08-24T02:36:17.028Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-08-24T02:36:17.028Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:17.028Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:17.028Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj [none]
+[debug] [2025-08-24T02:36:17.361Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj 200
+[debug] [2025-08-24T02:36:17.361Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj {"name":"operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj"}
+[debug] [2025-08-24T02:36:18.363Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-08-24T02:36:18.364Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:18.364Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:18.364Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj [none]
+[debug] [2025-08-24T02:36:18.690Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj 200
+[debug] [2025-08-24T02:36:18.690Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj {"name":"operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj"}
+[debug] [2025-08-24T02:36:20.692Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-08-24T02:36:20.692Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:20.692Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:20.692Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj [none]
+[debug] [2025-08-24T02:36:21.049Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj 200
+[debug] [2025-08-24T02:36:21.050Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj {"name":"operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj"}
+[debug] [2025-08-24T02:36:25.051Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-08-24T02:36:25.051Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:25.051Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:25.052Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj [none]
+[debug] [2025-08-24T02:36:25.409Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj 200
+[debug] [2025-08-24T02:36:25.410Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj {"name":"operations/workflows/YTU3OThjZjctNmVkMC00MmQ1LTgyZTAtYTcxN2Y5YTllZmFj","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"fixie-run","projectNumber":"361630217262","displayName":"Fixie-run","name":"projects/fixie-run","resources":{"hostingSite":"fixie-run"}}}
+[info] 
+[info] 🎉🎉🎉 Your Firebase project is ready! 🎉🎉🎉
+[info] 
+[info] Project information:
+[info]    - Project ID: fixie-run
+[info]    - Project Name: Fixie-run
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/fixie-run/overview
+[info] i  Using project fixie-run (Fixie-run) 
+[info] 
+=== Dataconnect Setup
+[debug] [2025-08-24T02:36:25.504Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:25.504Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:25.504Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/fixie-run/billingInfo [none]
+[debug] [2025-08-24T02:36:25.784Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/fixie-run/billingInfo 200
+[debug] [2025-08-24T02:36:25.784Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/fixie-run/billingInfo {"name":"projects/fixie-run/billingInfo","projectId":"fixie-run","billingAccountName":"billingAccounts/01AC85-028FBB-E35062","billingEnabled":true}
+[info] i  dataconnect: ensuring required API firebasedataconnect.googleapis.com is enabled... 
+[debug] [2025-08-24T02:36:25.785Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:25.785Z] Checked if tokens are valid: true, expires at: 1756005702617
+[info] i  dataconnect: ensuring required API sqladmin.googleapis.com is enabled... 
+[debug] [2025-08-24T02:36:25.786Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:25.786Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:25.786Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-08-24T02:36:25.786Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:36:25.787Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/sqladmin.googleapis.com [none]
+[debug] [2025-08-24T02:36:25.787Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/sqladmin.googleapis.com x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:36:26.646Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/sqladmin.googleapis.com 200
+[debug] [2025-08-24T02:36:26.646Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/sqladmin.googleapis.com [omitted]
+[warn] ⚠  dataconnect: missing required API sqladmin.googleapis.com. Enabling now... 
+[debug] [2025-08-24T02:36:26.647Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:26.647Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:26.647Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/sqladmin.googleapis.com:enable [none]
+[debug] [2025-08-24T02:36:26.647Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/sqladmin.googleapis.com:enable x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:36:26.687Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-08-24T02:36:26.687Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebasedataconnect.googleapis.com [omitted]
+[warn] ⚠  dataconnect: missing required API firebasedataconnect.googleapis.com. Enabling now... 
+[debug] [2025-08-24T02:36:26.687Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:26.687Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:26.687Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebasedataconnect.googleapis.com:enable [none]
+[debug] [2025-08-24T02:36:26.687Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebasedataconnect.googleapis.com:enable x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:36:27.795Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/sqladmin.googleapis.com:enable 200
+[debug] [2025-08-24T02:36:27.795Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/sqladmin.googleapis.com:enable [omitted]
+[debug] [2025-08-24T02:36:28.042Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebasedataconnect.googleapis.com:enable 200
+[debug] [2025-08-24T02:36:28.042Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebasedataconnect.googleapis.com:enable [omitted]
+[debug] [2025-08-24T02:36:38.055Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:38.056Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:36:38.056Z] >>> [apiv2][query] GET https://firebasedataconnect.googleapis.com/v1/projects/fixie-run/locations/-/services [none]
+[debug] [2025-08-24T02:36:39.124Z] <<< [apiv2][status] GET https://firebasedataconnect.googleapis.com/v1/projects/fixie-run/locations/-/services 200
+[debug] [2025-08-24T02:36:39.124Z] <<< [apiv2][body] GET https://firebasedataconnect.googleapis.com/v1/projects/fixie-run/locations/-/services {}
+[debug] [2025-08-24T02:38:20.655Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:20.656Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:20.656Z] >>> [apiv2][query] GET https://sqladmin.googleapis.com/v1/projects/fixie-run/instances [none]
+[debug] [2025-08-24T02:38:21.122Z] <<< [apiv2][status] GET https://sqladmin.googleapis.com/v1/projects/fixie-run/instances 200
+[debug] [2025-08-24T02:38:21.122Z] <<< [apiv2][body] GET https://sqladmin.googleapis.com/v1/projects/fixie-run/instances {}
+[debug] [2025-08-24T02:38:21.122Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:21.122Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:21.122Z] >>> [apiv2][query] GET https://firebasedataconnect.googleapis.com/v1/projects/fixie-run/locations [none]
+[debug] [2025-08-24T02:38:21.920Z] <<< [apiv2][status] GET https://firebasedataconnect.googleapis.com/v1/projects/fixie-run/locations 200
+[debug] [2025-08-24T02:38:21.920Z] <<< [apiv2][body] GET https://firebasedataconnect.googleapis.com/v1/projects/fixie-run/locations {"locations":[{"name":"projects/fixie-run/locations/asia-east1","locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/fixie-run/locations/asia-east2","locationId":"asia-east2","displayName":"Hong Kong"},{"name":"projects/fixie-run/locations/asia-northeast1","locationId":"asia-northeast1","displayName":"Tokyo"},{"name":"projects/fixie-run/locations/asia-northeast2","locationId":"asia-northeast2","displayName":"Osaka"},{"name":"projects/fixie-run/locations/asia-northeast3","locationId":"asia-northeast3","displayName":"Seoul"},{"name":"projects/fixie-run/locations/asia-south1","locationId":"asia-south1","displayName":"Mumbai"},{"name":"projects/fixie-run/locations/asia-southeast1","locationId":"asia-southeast1","displayName":"Singapore"},{"name":"projects/fixie-run/locations/asia-southeast2","locationId":"asia-southeast2","displayName":"Jakarta"},{"name":"projects/fixie-run/locations/australia-southeast1","locationId":"australia-southeast1","displayName":"Sydney"},{"name":"projects/fixie-run/locations/australia-southeast2","locationId":"australia-southeast2","displayName":"Melbourne"},{"name":"projects/fixie-run/locations/europe-central2","locationId":"europe-central2","displayName":"Warsaw"},{"name":"projects/fixie-run/locations/europe-north1","locationId":"europe-north1","displayName":"Finland"},{"name":"projects/fixie-run/locations/europe-southwest1","locationId":"europe-southwest1","displayName":"Madrid"},{"name":"projects/fixie-run/locations/europe-west1","locationId":"europe-west1","displayName":"Belgium"},{"name":"projects/fixie-run/locations/europe-west2","locationId":"europe-west2","displayName":"London"},{"name":"projects/fixie-run/locations/europe-west3","locationId":"europe-west3","displayName":"Frankfurt"},{"name":"projects/fixie-run/locations/europe-west4","locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/fixie-run/locations/europe-west6","locationId":"europe-west6","displayName":"Zurich"},{"name":"projects/fixie-run/locations/europe-west8","locationId":"europe-west8","displayName":"Milan"},{"name":"projects/fixie-run/locations/europe-west9","locationId":"europe-west9","displayName":"Paris"},{"name":"projects/fixie-run/locations/me-west1","locationId":"me-west1","displayName":"Tel Aviv"},{"name":"projects/fixie-run/locations/northamerica-northeast1","locationId":"northamerica-northeast1","displayName":"Montréal"},{"name":"projects/fixie-run/locations/northamerica-northeast2","locationId":"northamerica-northeast2","displayName":"Toronto"},{"name":"projects/fixie-run/locations/southamerica-east1","locationId":"southamerica-east1","displayName":"São Paulo"},{"name":"projects/fixie-run/locations/southamerica-west1","locationId":"southamerica-west1","displayName":"Santiago"},{"name":"projects/fixie-run/locations/us-central1","locationId":"us-central1","displayName":"Iowa"},{"name":"projects/fixie-run/locations/us-east1","locationId":"us-east1","displayName":"South Carolina"},{"name":"projects/fixie-run/locations/us-east4","locationId":"us-east4","displayName":"Northern Virginia"},{"name":"projects/fixie-run/locations/us-south1","locationId":"us-south1","displayName":"Dallas"},{"name":"projects/fixie-run/locations/us-west1","locationId":"us-west1","displayName":"Oregon"},{"name":"projects/fixie-run/locations/us-west2","locationId":"us-west2","displayName":"Los Angeles"},{"name":"projects/fixie-run/locations/us-west3","locationId":"us-west3","displayName":"Salt Lake City"},{"name":"projects/fixie-run/locations/us-west4","locationId":"us-west4","displayName":"Las Vegas"}]}
+[debug] [2025-08-24T02:38:33.877Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:33.877Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:33.877Z] >>> [apiv2][query] GET https://sqladmin.googleapis.com/v1/projects/fixie-run/instances/cyberpunk-fixierun-pwa-fdc [none]
+[debug] [2025-08-24T02:38:34.077Z] <<< [apiv2][status] GET https://sqladmin.googleapis.com/v1/projects/fixie-run/instances/cyberpunk-fixierun-pwa-fdc 404
+[debug] [2025-08-24T02:38:34.077Z] <<< [apiv2][body] GET https://sqladmin.googleapis.com/v1/projects/fixie-run/instances/cyberpunk-fixierun-pwa-fdc {"error":{"code":404,"message":"The Cloud SQL instance does not exist.","errors":[{"message":"The Cloud SQL instance does not exist.","domain":"global","reason":"instanceDoesNotExist"}]}}
+[debug] [2025-08-24T02:38:34.077Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:34.077Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:34.077Z] >>> [apiv2][query] GET https://monitoring.googleapis.com/v3/projects/fixie-run/timeSeries/ filter=metric.type%3D%22serviceruntime.googleapis.com%2Fquota%2Fallocation%2Fusage%22+AND+metric.label.quota_metric+%3D+%22sqladmin.googleapis.com%2Ffdc_lifetime_free_trial_per_project%22&interval.endTime=2025-08-24T02%3A38%3A34.077Z&interval.startTime=2025-08-17T02%3A38%3A34.077Z
+[debug] [2025-08-24T02:38:35.167Z] <<< [apiv2][status] GET https://monitoring.googleapis.com/v3/projects/fixie-run/timeSeries/ 200
+[debug] [2025-08-24T02:38:35.167Z] <<< [apiv2][body] GET https://monitoring.googleapis.com/v3/projects/fixie-run/timeSeries/ {"unit":"1"}
+[info] ✔  dataconnect: CloudSQL no cost trial available! 
+[debug] [2025-08-24T02:38:35.168Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:35.168Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:35.168Z] >>> [apiv2][query] POST https://sqladmin.googleapis.com/v1/projects/fixie-run/instances [none]
+[debug] [2025-08-24T02:38:35.168Z] >>> [apiv2][body] POST https://sqladmin.googleapis.com/v1/projects/fixie-run/instances {"name":"cyberpunk-fixierun-pwa-fdc","region":"us-west1","databaseVersion":"POSTGRES_15","settings":{"tier":"db-f1-micro","edition":"ENTERPRISE","ipConfiguration":{"authorizedNetworks":[]},"enableGoogleMlIntegration":false,"databaseFlags":[{"name":"cloudsql.iam_authentication","value":"on"}],"storageAutoResize":false,"userLabels":{"firebase-data-connect":"ft"},"insightsConfig":{"queryInsightsEnabled":true,"queryPlansPerMinute":5,"queryStringLength":1024}}}
+[debug] [2025-08-24T02:38:37.634Z] <<< [apiv2][status] POST https://sqladmin.googleapis.com/v1/projects/fixie-run/instances 200
+[debug] [2025-08-24T02:38:37.635Z] <<< [apiv2][body] POST https://sqladmin.googleapis.com/v1/projects/fixie-run/instances {"kind":"sql#operation","targetLink":"https://sqladmin.googleapis.com/v1/projects/fixie-run/instances/cyberpunk-fixierun-pwa-fdc","status":"PENDING","user":"dwtehen1@gmail.com","insertTime":"2025-08-24T02:38:37.579Z","operationType":"CREATE","name":"84361a7e-4f87-4d65-b7b5-2e7e00000033","targetId":"cyberpunk-fixierun-pwa-fdc","selfLink":"https://sqladmin.googleapis.com/v1/projects/fixie-run/operations/84361a7e-4f87-4d65-b7b5-2e7e00000033","targetProject":"fixie-run"}
+[info] i  dataconnect: Cloud SQL Instance cyberpunk-fixierun-pwa-fdc is being created.
+This instance is provided under the terms of the Data Connect no-cost trial https://firebase.google.com/pricing
+   Meanwhile, your data are saved in a temporary database and will be migrated once complete. Monitor its progress at
+
+   https://console.cloud.google.com/sql/instances/cyberpunk-fixierun-pwa-fdc/overview?project=fixie-run
+ 
+[info] ✔  Wrote dataconnect/dataconnect.yaml 
+[info] ✔  Wrote dataconnect/schema/schema.gql 
+[info] ✔  Wrote dataconnect/example/connector.yaml 
+[info] ✔  Wrote dataconnect/example/queries.gql 
+[info] ✔  Wrote dataconnect/example/mutations.gql 
+[info] 
+To get started with Firebase Data Connect:
+[info] i  To add the generated SDK to your app, run firebase init dataconnect:sdk
+ 
+[info] 
+=== Firestore Setup
+[info] i  firestore: ensuring required API firestore.googleapis.com is enabled... 
+[debug] [2025-08-24T02:38:37.710Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:37.711Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:37.711Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firestore.googleapis.com [none]
+[debug] [2025-08-24T02:38:37.711Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firestore.googleapis.com x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:38:38.621Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firestore.googleapis.com 200
+[debug] [2025-08-24T02:38:38.622Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firestore.googleapis.com [omitted]
+[warn] ⚠  firestore: missing required API firestore.googleapis.com. Enabling now... 
+[debug] [2025-08-24T02:38:38.622Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:38.622Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:38.622Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firestore.googleapis.com:enable [none]
+[debug] [2025-08-24T02:38:38.622Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firestore.googleapis.com:enable x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:38:39.426Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firestore.googleapis.com:enable 200
+[debug] [2025-08-24T02:38:39.426Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firestore.googleapis.com:enable [omitted]
+[debug] [2025-08-24T02:38:49.437Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:49.437Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:49.437Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/fixie-run/databases [none]
+[debug] [2025-08-24T02:38:49.934Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/fixie-run/databases 200
+[debug] [2025-08-24T02:38:49.934Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/fixie-run/databases {}
+[debug] [2025-08-24T02:38:49.934Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:49.934Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:49.934Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/fixie-run/locations [none]
+[debug] [2025-08-24T02:38:50.058Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/fixie-run/locations 200
+[debug] [2025-08-24T02:38:50.058Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/fixie-run/locations {"locations":[{"name":"projects/fixie-run/locations/eur3","labels":{"appengine.googleapis.com/geo":"europe-west","cloud.googleapis.com/location":"eur3","cloud.googleapis.com/geo":"eur3"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"eur3","displayName":"Europe"},{"name":"projects/fixie-run/locations/nam5","labels":{"appengine.googleapis.com/geo":"us-central","cloud.googleapis.com/location":"nam5","cloud.googleapis.com/geo":"nam5"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"nam5","displayName":"United States"},{"name":"projects/fixie-run/locations/nam7","labels":{"cloud.googleapis.com/location":"nam7","cloud.googleapis.com/geo":"nam7"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"nam7","displayName":"United States"},{"name":"projects/fixie-run/locations/africa-south1","labels":{"cloud.googleapis.com/location":"africa-south1","cloud.googleapis.com/region":"africa-south1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"africa-south1","displayName":"Johannesburg"},{"name":"projects/fixie-run/locations/asia-east1","labels":{"appengine.googleapis.com/region":"asia-east1","cloud.googleapis.com/location":"asia-east1","cloud.googleapis.com/region":"asia-east1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/fixie-run/locations/asia-east2","labels":{"appengine.googleapis.com/region":"asia-east2","cloud.googleapis.com/location":"asia-east2","cloud.googleapis.com/region":"asia-east2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-east2","displayName":"Hong Kong"},{"name":"projects/fixie-run/locations/asia-northeast1","labels":{"appengine.googleapis.com/region":"asia-northeast1","cloud.googleapis.com/location":"asia-northeast1","cloud.googleapis.com/region":"asia-northeast1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-northeast1","displayName":"Tokyo"},{"name":"projects/fixie-run/locations/asia-northeast2","labels":{"appengine.googleapis.com/region":"asia-northeast2","cloud.googleapis.com/location":"asia-northeast2","cloud.googleapis.com/region":"asia-northeast2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-northeast2","displayName":"Osaka"},{"name":"projects/fixie-run/locations/asia-northeast3","labels":{"appengine.googleapis.com/region":"asia-northeast3","cloud.googleapis.com/location":"asia-northeast3","cloud.googleapis.com/region":"asia-northeast3"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-northeast3","displayName":"Seoul"},{"name":"projects/fixie-run/locations/asia-south1","labels":{"appengine.googleapis.com/region":"asia-south1","cloud.googleapis.com/location":"asia-south1","cloud.googleapis.com/region":"asia-south1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-south1","displayName":"Mumbai"},{"name":"projects/fixie-run/locations/asia-south2","labels":{"cloud.googleapis.com/location":"asia-south2","cloud.googleapis.com/region":"asia-south2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-south2","displayName":"Delhi"},{"name":"projects/fixie-run/locations/asia-southeast1","labels":{"appengine.googleapis.com/region":"asia-southeast1","cloud.googleapis.com/location":"asia-southeast1","cloud.googleapis.com/region":"asia-southeast1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-southeast1","displayName":"Singapore"},{"name":"projects/fixie-run/locations/asia-southeast2","labels":{"appengine.googleapis.com/region":"asia-southeast2","cloud.googleapis.com/location":"asia-southeast2","cloud.googleapis.com/region":"asia-southeast2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"asia-southeast2","displayName":"Jakarta"},{"name":"projects/fixie-run/locations/australia-southeast1","labels":{"appengine.googleapis.com/region":"australia-southeast1","cloud.googleapis.com/location":"australia-southeast1","cloud.googleapis.com/region":"australia-southeast1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"australia-southeast1","displayName":"Sydney"},{"name":"projects/fixie-run/locations/australia-southeast2","labels":{"cloud.googleapis.com/location":"australia-southeast2","cloud.googleapis.com/region":"australia-southeast2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"australia-southeast2","displayName":"Melbourne"},{"name":"projects/fixie-run/locations/europe-central2","labels":{"appengine.googleapis.com/region":"europe-central2","cloud.googleapis.com/location":"europe-central2","cloud.googleapis.com/region":"europe-central2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-central2","displayName":"Warsaw"},{"name":"projects/fixie-run/locations/europe-north1","labels":{"cloud.googleapis.com/location":"europe-north1","cloud.googleapis.com/region":"europe-north1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-north1","displayName":"Finland"},{"name":"projects/fixie-run/locations/europe-north2","labels":{"cloud.googleapis.com/location":"europe-north2","cloud.googleapis.com/region":"europe-north2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-north2","displayName":"Stockholm"},{"name":"projects/fixie-run/locations/europe-southwest1","labels":{"cloud.googleapis.com/location":"europe-southwest1","cloud.googleapis.com/region":"europe-southwest1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-southwest1","displayName":"Madrid"},{"name":"projects/fixie-run/locations/europe-west1","labels":{"cloud.googleapis.com/location":"europe-west1","cloud.googleapis.com/region":"europe-west1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west1","displayName":"Belgium"},{"name":"projects/fixie-run/locations/europe-west10","labels":{"cloud.googleapis.com/location":"europe-west10","cloud.googleapis.com/region":"europe-west10"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west10","displayName":"Berlin"},{"name":"projects/fixie-run/locations/europe-west12","labels":{"cloud.googleapis.com/location":"europe-west12","cloud.googleapis.com/region":"europe-west12"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west12","displayName":"Turin"},{"name":"projects/fixie-run/locations/europe-west2","labels":{"appengine.googleapis.com/region":"europe-west2","cloud.googleapis.com/location":"europe-west2","cloud.googleapis.com/region":"europe-west2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west2","displayName":"London"},{"name":"projects/fixie-run/locations/europe-west3","labels":{"appengine.googleapis.com/region":"europe-west3","cloud.googleapis.com/location":"europe-west3","cloud.googleapis.com/region":"europe-west3"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west3","displayName":"Frankfurt"},{"name":"projects/fixie-run/locations/europe-west4","labels":{"cloud.googleapis.com/location":"europe-west4","cloud.googleapis.com/region":"europe-west4"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/fixie-run/locations/europe-west6","labels":{"appengine.googleapis.com/region":"europe-west6","cloud.googleapis.com/location":"europe-west6","cloud.googleapis.com/region":"europe-west6"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west6","displayName":"Zurich"},{"name":"projects/fixie-run/locations/europe-west8","labels":{"cloud.googleapis.com/location":"europe-west8","cloud.googleapis.com/region":"europe-west8"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west8","displayName":"Milan"},{"name":"projects/fixie-run/locations/europe-west9","labels":{"cloud.googleapis.com/location":"europe-west9","cloud.googleapis.com/region":"europe-west9"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"europe-west9","displayName":"Paris"},{"name":"projects/fixie-run/locations/me-central1","labels":{"cloud.googleapis.com/location":"me-central1","cloud.googleapis.com/region":"me-central1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"me-central1","displayName":"Doha"},{"name":"projects/fixie-run/locations/me-central2","labels":{"cloud.googleapis.com/location":"me-central2","cloud.googleapis.com/region":"me-central2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"me-central2","displayName":"Dammam"},{"name":"projects/fixie-run/locations/me-west1","labels":{"cloud.googleapis.com/location":"me-west1","cloud.googleapis.com/region":"me-west1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"me-west1","displayName":"Tel Aviv"},{"name":"projects/fixie-run/locations/northamerica-northeast1","labels":{"appengine.googleapis.com/region":"northamerica-northeast1","cloud.googleapis.com/location":"northamerica-northeast1","cloud.googleapis.com/region":"northamerica-northeast1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"northamerica-northeast1","displayName":"Montréal"},{"name":"projects/fixie-run/locations/northamerica-northeast2","labels":{"cloud.googleapis.com/location":"northamerica-northeast2","cloud.googleapis.com/region":"northamerica-northeast2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"northamerica-northeast2","displayName":"Toronto"},{"name":"projects/fixie-run/locations/northamerica-south1","labels":{"cloud.googleapis.com/location":"northamerica-south1","cloud.googleapis.com/region":"northamerica-south1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"northamerica-south1","displayName":"Mexico"},{"name":"projects/fixie-run/locations/southamerica-east1","labels":{"appengine.googleapis.com/region":"southamerica-east1","cloud.googleapis.com/location":"southamerica-east1","cloud.googleapis.com/region":"southamerica-east1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"southamerica-east1","displayName":"São Paulo"},{"name":"projects/fixie-run/locations/southamerica-west1","labels":{"cloud.googleapis.com/location":"southamerica-west1","cloud.googleapis.com/region":"southamerica-west1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"southamerica-west1","displayName":"Santiago"},{"name":"projects/fixie-run/locations/us-central1","labels":{"cloud.googleapis.com/location":"us-central1","cloud.googleapis.com/region":"us-central1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-central1","displayName":"Iowa"},{"name":"projects/fixie-run/locations/us-east1","labels":{"appengine.googleapis.com/region":"us-east1","cloud.googleapis.com/location":"us-east1","cloud.googleapis.com/region":"us-east1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-east1","displayName":"South Carolina"},{"name":"projects/fixie-run/locations/us-east4","labels":{"appengine.googleapis.com/region":"us-east4","cloud.googleapis.com/location":"us-east4","cloud.googleapis.com/region":"us-east4"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-east4","displayName":"Northern Virginia"},{"name":"projects/fixie-run/locations/us-east5","labels":{"cloud.googleapis.com/location":"us-east5","cloud.googleapis.com/region":"us-east5"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-east5","displayName":"Columbus"},{"name":"projects/fixie-run/locations/us-south1","labels":{"cloud.googleapis.com/location":"us-south1","cloud.googleapis.com/region":"us-south1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-south1","displayName":"Dallas"},{"name":"projects/fixie-run/locations/us-west1","labels":{"appengine.googleapis.com/region":"us-west1","cloud.googleapis.com/location":"us-west1","cloud.googleapis.com/region":"us-west1"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-west1","displayName":"Oregon"},{"name":"projects/fixie-run/locations/us-west2","labels":{"appengine.googleapis.com/region":"us-west2","cloud.googleapis.com/location":"us-west2","cloud.googleapis.com/region":"us-west2"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-west2","displayName":"Los Angeles"},{"name":"projects/fixie-run/locations/us-west3","labels":{"appengine.googleapis.com/region":"us-west3","cloud.googleapis.com/location":"us-west3","cloud.googleapis.com/region":"us-west3"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-west3","displayName":"Salt Lake City"},{"name":"projects/fixie-run/locations/us-west4","labels":{"appengine.googleapis.com/region":"us-west4","cloud.googleapis.com/location":"us-west4","cloud.googleapis.com/region":"us-west4"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-west4","displayName":"Las Vegas"},{"name":"projects/fixie-run/locations/us-west8","labels":{"cloud.googleapis.com/location":"us-west8","cloud.googleapis.com/region":"us-west8"},"metadata":{"@type":"type.googleapis.com/google.firestore.admin.v1.LocationMetadata"},"locationId":"us-west8","displayName":"Phoenix"}]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-08-24T02:38:59.054Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:59.054Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:38:59.054Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/fixie-run/releases pageSize=10&pageToken=
+[debug] [2025-08-24T02:38:59.748Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/fixie-run/releases 200
+[debug] [2025-08-24T02:38:59.748Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/fixie-run/releases {}
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-08-24T02:39:08.711Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:39:08.711Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:39:08.711Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:39:08.711Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:39:08.712Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/fixie-run/databases/(default)/collectionGroups/-/indexes [none]
+[debug] [2025-08-24T02:39:08.712Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/fixie-run/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* [none]
+[debug] [2025-08-24T02:39:08.839Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/fixie-run/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* 404
+[debug] [2025-08-24T02:39:08.840Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/fixie-run/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* {"error":{"code":404,"message":"Project 'fixie-run' or database '(default)' does not exist.","status":"NOT_FOUND"}}
+[info] ✔  Wrote firestore.rules 
+[info] ✔  Wrote firestore.indexes.json 
+[debug] [2025-08-24T02:39:08.846Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/fixie-run/databases/(default)/collectionGroups/-/indexes 404
+[debug] [2025-08-24T02:39:08.846Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/fixie-run/databases/(default)/collectionGroups/-/indexes {"error":{"code":404,"message":"Project 'fixie-run' or database '(default)' does not exist.","status":"NOT_FOUND"}}
+[info] 
+=== Genkit Setup
+[debug] [2025-08-24T02:39:14.069Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-24T02:39:14.070Z] > authorizing via signed-in user (dwtehen1@gmail.com)
+[debug] [2025-08-24T02:39:14.070Z] [iam] checking project fixie-run for permissions ["firebase.projects.get"]
+[debug] [2025-08-24T02:39:14.071Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:39:14.071Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:39:14.071Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:testIamPermissions [none]
+[debug] [2025-08-24T02:39:14.071Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:testIamPermissions x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:39:14.071Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-08-24T02:39:14.746Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:testIamPermissions 200
+[debug] [2025-08-24T02:39:14.746Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-08-24T02:39:14.746Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:39:14.746Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:39:14.747Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:39:14.747Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:39:14.747Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-08-24T02:39:14.747Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:39:14.748Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/runtimeconfig.googleapis.com [none]
+[debug] [2025-08-24T02:39:14.748Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:39:15.569Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/cloudfunctions.googleapis.com 200
+[debug] [2025-08-24T02:39:15.569Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-08-24T02:39:15.569Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:39:15.569Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:39:15.569Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2025-08-24T02:39:15.569Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/cloudfunctions.googleapis.com:enable x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:39:15.572Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/runtimeconfig.googleapis.com 200
+[debug] [2025-08-24T02:39:15.572Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2025-08-24T02:39:16.340Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2025-08-24T02:39:16.340Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/cloudfunctions.googleapis.com:enable [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] ✔  Wrote functions/package.json 
+[info] ✔  Wrote functions/.eslintrc.js 
+[info] ✔  Wrote functions/tsconfig.dev.json 
+[info] ✔  Wrote functions/tsconfig.json 
+[info] ✔  Wrote functions/src/index.ts 
+[info] ✔  Wrote functions/.gitignore 
+[info] 
+[info] i  genkit: Installing Genkit CLI version 1.17.0
+ 
+[info] i  genkit: Installing NPM packages for genkit 
+[info] ✔  genkit: Successfully installed NPM packages 
+[info] i  genkit: Updating tsconfig.json 
+[info] ✔  genkit: Successfully updated tsconfig.json 
+[info] i  genkit: Updating package.json 
+[info] ✔  genkit: Successfully updated package.json 
+[info] Telemetry data can be used to monitor and gain insights into your AI features. There may be a cost associated with using this feature. See https://firebase.google.com/docs/genkit/observability/telemetry-collection.
+[info] i  genkit: Generating sample file 
+[info] ✔  genkit: Successfully generated sample file (src/genkit-sample.ts) 
+[info] 
+[info] 
+Login to Google Cloud using:
+[info]     gcloud auth application-default login --project fixie-run
+
+[info] Then start the Genkit developer experience by running:
+[info]     cd functions && npm run genkit:start
+[info] 
+=== Functions Setup
+[debug] [2025-08-24T02:47:43.206Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-24T02:47:43.206Z] > authorizing via signed-in user (dwtehen1@gmail.com)
+[debug] [2025-08-24T02:47:43.206Z] [iam] checking project fixie-run for permissions ["firebase.projects.get"]
+[debug] [2025-08-24T02:47:43.206Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:47:43.206Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:47:43.207Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:testIamPermissions [none]
+[debug] [2025-08-24T02:47:43.207Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:testIamPermissions x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:47:43.207Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-08-24T02:47:43.919Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:testIamPermissions 200
+[debug] [2025-08-24T02:47:43.919Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+Detected existing codebase(s): default
+
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[error] Invalid codebase name. Codebase must be less than 64 characters and can contain only lowercase letters, numeric characters, underscores, and dashes.
+[error] Invalid codebase name. Codebase must be less than 64 characters and can contain only lowercase letters, numeric characters, underscores, and dashes.
+[error] Invalid codebase name. Codebase must be less than 64 characters and can contain only lowercase letters, numeric characters, underscores, and dashes.
+[info] ✔  Wrote newdb/package.json 
+[info] ✔  Wrote newdb/.eslintrc.js 
+[info] ✔  Wrote newdb/tsconfig.dev.json 
+[info] ✔  Wrote newdb/tsconfig.json 
+[info] ✔  Wrote newdb/src/index.ts 
+[info] ✔  Wrote newdb/.gitignore 
+[info] 
+=== App Hosting Setup
+[debug] [2025-08-24T02:48:41.143Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:41.143Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:41.143Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-08-24T02:48:41.143Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:48:42.011Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-08-24T02:48:42.011Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-08-24T02:48:42.011Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:42.011Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:42.012Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebaseapphosting.googleapis.com:enable [none]
+[debug] [2025-08-24T02:48:42.012Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebaseapphosting.googleapis.com:enable x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:48:42.710Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebaseapphosting.googleapis.com:enable 200
+[debug] [2025-08-24T02:48:42.710Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/firebaseapphosting.googleapis.com:enable [omitted]
+[debug] [2025-08-24T02:48:52.720Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:52.720Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:52.721Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:52.721Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:52.721Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:52.721Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:52.721Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:52.721Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:52.721Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:52.721Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:52.721Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:52.721Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:52.721Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/developerconnect.googleapis.com [none]
+[debug] [2025-08-24T02:48:52.721Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/developerconnect.googleapis.com x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:48:52.722Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/cloudbuild.googleapis.com [none]
+[debug] [2025-08-24T02:48:52.722Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/cloudbuild.googleapis.com x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:48:52.724Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/secretmanager.googleapis.com [none]
+[debug] [2025-08-24T02:48:52.724Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/secretmanager.googleapis.com x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:48:52.725Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/run.googleapis.com [none]
+[debug] [2025-08-24T02:48:52.725Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/run.googleapis.com x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:48:52.726Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/artifactregistry.googleapis.com [none]
+[debug] [2025-08-24T02:48:52.726Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/artifactregistry.googleapis.com x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:48:52.727Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/iam.googleapis.com [none]
+[debug] [2025-08-24T02:48:52.727Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/iam.googleapis.com x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:48:53.535Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/developerconnect.googleapis.com 200
+[debug] [2025-08-24T02:48:53.535Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/developerconnect.googleapis.com [omitted]
+[debug] [2025-08-24T02:48:53.535Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:53.535Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:48:53.536Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/developerconnect.googleapis.com:enable [none]
+[debug] [2025-08-24T02:48:53.536Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/developerconnect.googleapis.com:enable x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:48:53.552Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/cloudbuild.googleapis.com 200
+[debug] [2025-08-24T02:48:53.552Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/cloudbuild.googleapis.com [omitted]
+[debug] [2025-08-24T02:48:53.566Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/artifactregistry.googleapis.com 200
+[debug] [2025-08-24T02:48:53.566Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/artifactregistry.googleapis.com [omitted]
+[debug] [2025-08-24T02:48:53.575Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/run.googleapis.com 200
+[debug] [2025-08-24T02:48:53.575Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/run.googleapis.com [omitted]
+[debug] [2025-08-24T02:48:53.581Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/iam.googleapis.com 200
+[debug] [2025-08-24T02:48:53.581Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/iam.googleapis.com [omitted]
+[debug] [2025-08-24T02:48:53.587Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/secretmanager.googleapis.com 200
+[debug] [2025-08-24T02:48:53.587Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fixie-run/services/secretmanager.googleapis.com [omitted]
+[debug] [2025-08-24T02:48:54.546Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/developerconnect.googleapis.com:enable 200
+[debug] [2025-08-24T02:48:54.546Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/fixie-run/services/developerconnect.googleapis.com:enable [omitted]
+[debug] [2025-08-24T02:49:04.557Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:49:04.557Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:49:04.557Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/fixie-run/serviceAccounts/firebase-app-hosting-compute@fixie-run.iam.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-08-24T02:49:04.557Z] >>> [apiv2][(partial)header] POST https://iam.googleapis.com/v1/projects/fixie-run/serviceAccounts/firebase-app-hosting-compute@fixie-run.iam.gserviceaccount.com:testIamPermissions x-goog-quota-user=projects/fixie-run
+[debug] [2025-08-24T02:49:04.557Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/fixie-run/serviceAccounts/firebase-app-hosting-compute@fixie-run.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-08-24T02:49:05.360Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/fixie-run/serviceAccounts/firebase-app-hosting-compute@fixie-run.iam.gserviceaccount.com:testIamPermissions 404
+[debug] [2025-08-24T02:49:05.360Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/fixie-run/serviceAccounts/firebase-app-hosting-compute@fixie-run.iam.gserviceaccount.com:testIamPermissions {"error":{"code":404,"message":"Unknown service account","status":"NOT_FOUND"}}
+[debug] [2025-08-24T02:49:05.360Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:49:05.360Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:49:05.360Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/fixie-run/serviceAccounts [none]
+[debug] [2025-08-24T02:49:05.360Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/fixie-run/serviceAccounts {"accountId":"firebase-app-hosting-compute","serviceAccount":{"displayName":"Firebase App Hosting compute service account","description":"Default service account used to run builds and deploys for Firebase App Hosting"}}
+[debug] [2025-08-24T02:49:06.324Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/fixie-run/serviceAccounts 200
+[debug] [2025-08-24T02:49:06.324Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/fixie-run/serviceAccounts [omitted]
+[debug] [2025-08-24T02:49:06.325Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:49:06.325Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:49:06.325Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:getIamPolicy [none]
+[debug] [2025-08-24T02:49:07.125Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:getIamPolicy 200
+[debug] [2025-08-24T02:49:07.125Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:getIamPolicy {"version":1,"etag":"BwY9E3qRLRU=","bindings":[{"role":"roles/cloudbuild.builds.builder","members":["serviceAccount:361630217262@cloudbuild.gserviceaccount.com"]},{"role":"roles/cloudbuild.serviceAgent","members":["serviceAccount:service-361630217262@gcp-sa-cloudbuild.iam.gserviceaccount.com"]},{"role":"roles/cloudfunctions.serviceAgent","members":["serviceAccount:service-361630217262@gcf-admin-robot.iam.gserviceaccount.com"]},{"role":"roles/containerregistry.ServiceAgent","members":["serviceAccount:service-361630217262@containerregistry.iam.gserviceaccount.com"]},{"role":"roles/editor","members":["serviceAccount:361630217262-compute@developer.gserviceaccount.com","serviceAccount:fixie-run@appspot.gserviceaccount.com"]},{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:service-361630217262@gcp-sa-firebase.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-fbsvc@fixie-run.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-fbsvc@fixie-run.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:dwtehen1@gmail.com"]},{"role":"roles/run.serviceAgent","members":["serviceAccount:service-361630217262@serverless-robot-prod.iam.gserviceaccount.com"]}]}
+[debug] [2025-08-24T02:49:07.126Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:49:07.126Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:49:07.126Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:setIamPolicy [none]
+[debug] [2025-08-24T02:49:07.126Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:setIamPolicy {"policy":{"version":1,"etag":"BwY9E3qRLRU=","bindings":[{"role":"roles/cloudbuild.builds.builder","members":["serviceAccount:361630217262@cloudbuild.gserviceaccount.com"]},{"role":"roles/cloudbuild.serviceAgent","members":["serviceAccount:service-361630217262@gcp-sa-cloudbuild.iam.gserviceaccount.com"]},{"role":"roles/cloudfunctions.serviceAgent","members":["serviceAccount:service-361630217262@gcf-admin-robot.iam.gserviceaccount.com"]},{"role":"roles/containerregistry.ServiceAgent","members":["serviceAccount:service-361630217262@containerregistry.iam.gserviceaccount.com"]},{"role":"roles/editor","members":["serviceAccount:361630217262-compute@developer.gserviceaccount.com","serviceAccount:fixie-run@appspot.gserviceaccount.com"]},{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:service-361630217262@gcp-sa-firebase.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-fbsvc@fixie-run.iam.gserviceaccount.com","serviceAccount:firebase-app-hosting-compute@fixie-run.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-fbsvc@fixie-run.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:dwtehen1@gmail.com"]},{"role":"roles/run.serviceAgent","members":["serviceAccount:service-361630217262@serverless-robot-prod.iam.gserviceaccount.com"]},{"role":"roles/firebaseapphosting.computeRunner","members":["serviceAccount:firebase-app-hosting-compute@fixie-run.iam.gserviceaccount.com"]},{"role":"roles/developerconnect.readTokenAccessor","members":["serviceAccount:firebase-app-hosting-compute@fixie-run.iam.gserviceaccount.com"]},{"role":"roles/storage.objectViewer","members":["serviceAccount:firebase-app-hosting-compute@fixie-run.iam.gserviceaccount.com"]}]},"updateMask":"bindings"}
+[debug] [2025-08-24T02:49:07.700Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:setIamPolicy 400
+[debug] [2025-08-24T02:49:07.700Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fixie-run:setIamPolicy {"error":{"code":400,"message":"Service account firebase-app-hosting-compute@fixie-run.iam.gserviceaccount.com does not exist.","status":"INVALID_ARGUMENT"}}
+[warn] ⚠  Your App Hosting compute service account is still being provisioned in the background. If you encounter an error, please try again after a few moments. 
+[info] i  This command links your local project to Firebase App Hosting. You will be able to deploy your web app with `firebase deploy` after setup. 
+[info] i  === Set up your backend 
+[debug] [2025-08-24T02:49:29.888Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:49:29.888Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:49:29.889Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations 
+[debug] [2025-08-24T02:49:30.736Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations 200
+[debug] [2025-08-24T02:49:30.736Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations {"locations":[{"name":"projects/fixie-run/locations/asia-east1","locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/fixie-run/locations/europe-west4","locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/fixie-run/locations/us-central1","locationId":"us-central1","displayName":"Iowa"}]}
+[info] ✔  Location set to europe-west4.
+ 
+[debug] [2025-08-24T02:50:14.340Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:14.340Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:14.340Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations/europe-west4/backends/my-web-app [none]
+[debug] [2025-08-24T02:50:14.489Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations/europe-west4/backends/my-web-app 404
+[debug] [2025-08-24T02:50:14.489Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations/europe-west4/backends/my-web-app {"error":{"code":404,"message":"Resource 'projects/fixie-run/locations/europe-west4/backends/my-web-app' was not found","status":"NOT_FOUND","details":[{"@type":"type.googleapis.com/google.rpc.ResourceInfo","resourceName":"projects/fixie-run/locations/europe-west4/backends/my-web-app"}]}}
+[info] ✔  Name set to my-web-app
+ 
+[debug] [2025-08-24T02:50:14.490Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:14.490Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:14.490Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fixie-run/webApps pageSize=100
+[debug] [2025-08-24T02:50:14.820Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fixie-run/webApps 200
+[debug] [2025-08-24T02:50:14.820Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fixie-run/webApps {}
+[debug] [2025-08-24T02:50:14.821Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:14.821Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:14.821Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fixie-run/webApps pageSize=100
+[debug] [2025-08-24T02:50:15.061Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fixie-run/webApps 200
+[debug] [2025-08-24T02:50:15.061Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fixie-run/webApps {}
+[debug] [2025-08-24T02:50:15.061Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:15.061Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:15.061Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/fixie-run/webApps [none]
+[debug] [2025-08-24T02:50:15.061Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/fixie-run/webApps {"displayName":"my-web-app"}
+[debug] [2025-08-24T02:50:16.145Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/fixie-run/webApps 200
+[debug] [2025-08-24T02:50:16.145Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/fixie-run/webApps {"name":"operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5"}
+[debug] [2025-08-24T02:50:16.146Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:16.146Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:16.146Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5 [none]
+[debug] [2025-08-24T02:50:16.407Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5 200
+[debug] [2025-08-24T02:50:16.407Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5 {"name":"operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5"}
+[debug] [2025-08-24T02:50:16.908Z] [Create Web app Poller] Retrying task index 0
+[debug] [2025-08-24T02:50:16.908Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:16.908Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:16.908Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5 [none]
+[debug] [2025-08-24T02:50:17.297Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5 200
+[debug] [2025-08-24T02:50:17.297Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5 {"name":"operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5"}
+[debug] [2025-08-24T02:50:18.298Z] [Create Web app Poller] Retrying task index 0
+[debug] [2025-08-24T02:50:18.298Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:18.299Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:18.299Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5 [none]
+[debug] [2025-08-24T02:50:18.618Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5 200
+[debug] [2025-08-24T02:50:18.618Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5 {"name":"operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5"}
+[debug] [2025-08-24T02:50:20.618Z] [Create Web app Poller] Retrying task index 0
+[debug] [2025-08-24T02:50:20.619Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:20.619Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:20.619Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5 [none]
+[debug] [2025-08-24T02:50:20.984Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5 200
+[debug] [2025-08-24T02:50:20.984Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5 {"name":"operations/workflows/Y2YzYjMxYmYtZjJlYy00OTgzLWE4NWMtMWVhNmZmNjlhZjk5","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.WebApp","name":"projects/fixie-run/webApps/1:361630217262:web:b2b95ed5b729aada67dbbf","appId":"1:361630217262:web:b2b95ed5b729aada67dbbf","displayName":"my-web-app","projectId":"fixie-run","webId":"ZjNmMTA3OWYtODlmOC00MTAwLTliOTYtNTQ3OGI5OGRhYTg0","apiKeyId":"b1eb3e57-e042-4ec0-bb04-ae67b7833399","state":"ACTIVE","expireTime":"1970-01-01T00:00:00Z","etag":"1_4d82ce16-40a9-4e07-8e2f-8f1297a139b6"}}
+[info] ✔  Created a new Firebase web app named "my-web-app" 
+[debug] [2025-08-24T02:50:20.985Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:20.985Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:20.985Z] >>> [apiv2][query] POST https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations/europe-west4/backends backendId=my-web-app
+[debug] [2025-08-24T02:50:20.985Z] >>> [apiv2][body] POST https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations/europe-west4/backends {"servingLocality":"GLOBAL_ACCESS","labels":{"deployment-tool":"cli-firebase"},"serviceAccount":"firebase-app-hosting-compute@fixie-run.iam.gserviceaccount.com","appId":"1:361630217262:web:b2b95ed5b729aada67dbbf"}
+[debug] [2025-08-24T02:50:23.419Z] <<< [apiv2][status] POST https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations/europe-west4/backends 200
+[debug] [2025-08-24T02:50:23.419Z] <<< [apiv2][body] POST https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations/europe-west4/backends {"name":"projects/fixie-run/locations/europe-west4/operations/operation-1756003821196-63d137ffc9635-f45158a4-96fc3628","metadata":{"@type":"type.googleapis.com/google.firebase.apphosting.v1beta.OperationMetadata","createTime":"2025-08-24T02:50:23.451519589Z","target":"projects/fixie-run/locations/europe-west4/backends/my-web-app","verb":"create","requestedCancellation":false,"apiVersion":"v1beta"},"done":false}
+[debug] [2025-08-24T02:50:23.419Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:23.419Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:23.419Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations/europe-west4/operations/operation-1756003821196-63d137ffc9635-f45158a4-96fc3628 [none]
+[debug] [2025-08-24T02:50:23.498Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations/europe-west4/operations/operation-1756003821196-63d137ffc9635-f45158a4-96fc3628 200
+[debug] [2025-08-24T02:50:23.498Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations/europe-west4/operations/operation-1756003821196-63d137ffc9635-f45158a4-96fc3628 {"name":"projects/fixie-run/locations/europe-west4/operations/operation-1756003821196-63d137ffc9635-f45158a4-96fc3628","metadata":{"@type":"type.googleapis.com/google.firebase.apphosting.v1beta.OperationMetadata","createTime":"2025-08-24T02:50:23.451519589Z","target":"projects/fixie-run/locations/europe-west4/backends/my-web-app","verb":"create","requestedCancellation":false,"apiVersion":"v1beta"},"done":false}
+[debug] [2025-08-24T02:50:23.999Z] [create-fixie-run-europe-west4-my-web-app] Retrying task index 0
+[debug] [2025-08-24T02:50:23.999Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:23.999Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:23.999Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations/europe-west4/operations/operation-1756003821196-63d137ffc9635-f45158a4-96fc3628 [none]
+[debug] [2025-08-24T02:50:24.052Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations/europe-west4/operations/operation-1756003821196-63d137ffc9635-f45158a4-96fc3628 200
+[debug] [2025-08-24T02:50:24.052Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/fixie-run/locations/europe-west4/operations/operation-1756003821196-63d137ffc9635-f45158a4-96fc3628 {"name":"projects/fixie-run/locations/europe-west4/operations/operation-1756003821196-63d137ffc9635-f45158a4-96fc3628","metadata":{"@type":"type.googleapis.com/google.firebase.apphosting.v1beta.OperationMetadata","createTime":"2025-08-24T02:50:23.451519589Z","endTime":"2025-08-24T02:50:23.841614002Z","target":"projects/fixie-run/locations/europe-west4/backends/my-web-app","verb":"create","requestedCancellation":false,"apiVersion":"v1beta"},"done":true,"response":{"@type":"type.googleapis.com/google.firebase.apphosting.v1beta.Backend","name":"projects/fixie-run/locations/europe-west4/backends/my-web-app","createTime":"2025-08-24T02:50:23.446812719Z","updateTime":"2025-08-24T02:50:23.838832Z","labels":{"deployment-tool":"cli-firebase"},"uri":"my-web-app--fixie-run.europe-west4.hosted.app","uid":"df45898d-5dae-4d27-9c69-48cc219cd75b","etag":"U_MfJKZkM-b4l8TWyliEL8zhNRS9TsWV3e2mvyqAqUc","reconciling":false,"servingLocality":"GLOBAL_ACCESS","serviceAccount":"firebase-app-hosting-compute@fixie-run.iam.gserviceaccount.com","appId":"1:361630217262:web:b2b95ed5b729aada67dbbf"}}
+[info] i  === Deploy local source setup 
+[info] ✔  Wrote configuration info to firebase.json 
+[info] i  Writing default settings to apphosting.yaml... 
+[info] ✔  Wrote /Users/devtehen/Downloads/CyberPunk - fixierun - pwa/apphosting.yaml 
+[info] ✔  Firebase initialization complete! 
+[info] 
+=== Hosting Setup
+[debug] [2025-08-24T02:50:29.384Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:29.385Z] Checked if tokens are valid: true, expires at: 1756005702617
+[debug] [2025-08-24T02:50:29.385Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fixie-run [none]
+[debug] [2025-08-24T02:50:29.634Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fixie-run 200
+[debug] [2025-08-24T02:50:29.634Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fixie-run {"projectId":"fixie-run","projectNumber":"361630217262","displayName":"Fixie-run","name":"projects/fixie-run","resources":{"hostingSite":"fixie-run"},"state":"ACTIVE","etag":"1_21e3ab56-ec97-4594-9865-5b073ad95a35"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-08-24T02:50:37.995Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-08-24T02:50:38.083Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-08-24T02:50:38.083Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"12.1.0","browserURL":"https://www.gstatic.com/firebasejs/12.1.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/12.1.0/firebase.tgz"},"live":{"version":"12.1","browserURL":"https://www.gstatic.com/firebasejs/live/12.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/12.1/firebase.tgz"},"components":{"ai":"https://www.gstatic.com/firebasejs/12.1.0/firebase-ai.js","analytics":"https://www.gstatic.com/firebasejs/12.1.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/12.1.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/12.1.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/12.1.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/12.1.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/12.1.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/12.1.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/12.1.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/12.1.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/12.1.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/12.1.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/12.1.0/firebase-database.js","data-connect":"https://www.gstatic.com/firebasejs/12.1.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.memory.js"}}
+[info] ✔  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/devtehen/Downloads/CyberPunk - fixierun - pwa 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=505296089&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-08-24T02:51:02.251Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-08-24T02:51:02.251Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-08-24T02:51:02.635Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-08-24T02:51:02.636Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-08-24T02:51:02.639Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-08-24T02:51:02.975Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-08-24T02:51:02.975Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Tehen1","id":78624592,"node_id":"MDQ6VXNlcjc4NjI0NTky","avatar_url":"https://avatars.githubusercontent.com/u/78624592?v=4","gravatar_id":"","url":"https://api.github.com/users/Tehen1","html_url":"https://github.com/Tehen1","followers_url":"https://api.github.com/users/Tehen1/followers","following_url":"https://api.github.com/users/Tehen1/following{/other_user}","gists_url":"https://api.github.com/users/Tehen1/gists{/gist_id}","starred_url":"https://api.github.com/users/Tehen1/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Tehen1/subscriptions","organizations_url":"https://api.github.com/users/Tehen1/orgs","repos_url":"https://api.github.com/users/Tehen1/repos","events_url":"https://api.github.com/users/Tehen1/events{/privacy}","received_events_url":"https://api.github.com/users/Tehen1/received_events","type":"User","user_view_type":"private","site_admin":false,"name":"Antony Lambinon","company":null,"blog":"","location":"Belgium, Liege","email":null,"hireable":null,"bio":null,"twitter_username":"AntoTehen","notification_email":null,"public_repos":103,"public_gists":1,"followers":23,"following":38,"created_at":"2021-02-05T22:57:14Z","updated_at":"2025-08-24T00:46:02Z","private_gists":0,"total_private_repos":357,"owned_private_repos":357,"disk_usage":2052175,"collaborators":1,"two_factor_authentication":true,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as Tehen1 
+[info] 
+[debug] [2025-08-24T02:51:39.715Z] >>> [apiv2][query] GET https://api.github.com/repos/tehen1/new/actions/secrets/public-key type=owner
+[debug] [2025-08-24T02:51:39.969Z] <<< [apiv2][status] GET https://api.github.com/repos/tehen1/new/actions/secrets/public-key 404
+[debug] [2025-08-24T02:51:39.969Z] <<< [apiv2][body] GET https://api.github.com/repos/tehen1/new/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-08-24T02:51:44.410Z] >>> [apiv2][query] GET https://api.github.com/repos/tehen1/new/actions/secrets/public-key type=owner
+[debug] [2025-08-24T02:51:44.601Z] <<< [apiv2][status] GET https://api.github.com/repos/tehen1/new/actions/secrets/public-key 404
+[debug] [2025-08-24T02:51:44.601Z] <<< [apiv2][body] GET https://api.github.com/repos/tehen1/new/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-08-24T02:51:46.897Z] >>> [apiv2][query] GET https://api.github.com/repos/tehen1/actions/secrets/public-key type=owner
+[debug] [2025-08-24T02:51:47.029Z] <<< [apiv2][status] GET https://api.github.com/repos/tehen1/actions/secrets/public-key 404
+[debug] [2025-08-24T02:51:47.029Z] <<< [apiv2][body] GET https://api.github.com/repos/tehen1/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-08-24T02:51:50.993Z] >>> [apiv2][query] GET https://api.github.com/repos/tehen1-hbhjb/actions/secrets/public-key type=owner
+[debug] [2025-08-24T02:51:51.189Z] <<< [apiv2][status] GET https://api.github.com/repos/tehen1-hbhjb/actions/secrets/public-key 404
+[debug] [2025-08-24T02:51:51.189Z] <<< [apiv2][body] GET https://api.github.com/repos/tehen1-hbhjb/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-08-24T02:51:52.348Z] >>> [apiv2][query] GET https://api.github.com/repos/tehen1-hbhjb/actions/secrets/public-key type=owner
+[debug] [2025-08-24T02:51:52.562Z] <<< [apiv2][status] GET https://api.github.com/repos/tehen1-hbhjb/actions/secrets/public-key 404
+[debug] [2025-08-24T02:51:52.563Z] <<< [apiv2][body] GET https://api.github.com/repos/tehen1-hbhjb/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-08-24T02:51:52.732Z] >>> [apiv2][query] GET https://api.github.com/repos/tehen1-hbhjb/actions/secrets/public-key type=owner
+[debug] [2025-08-24T02:51:52.916Z] <<< [apiv2][status] GET https://api.github.com/repos/tehen1-hbhjb/actions/secrets/public-key 404
+[debug] [2025-08-24T02:51:52.917Z] <<< [apiv2][body] GET https://api.github.com/repos/tehen1-hbhjb/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-08-24T02:52:17.506Z] >>> [apiv2][query] GET https://api.github.com/repos/tehen1-hbhjb/actions/secrets/public-key type=owner
+[debug] [2025-08-24T02:52:17.691Z] <<< [apiv2][status] GET https://api.github.com/repos/tehen1-hbhjb/actions/secrets/public-key 404
+[debug] [2025-08-24T02:52:17.691Z] <<< [apiv2][body] GET https://api.github.com/repos/tehen1-hbhjb/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-08-24T02:52:21.742Z] >>> [apiv2][query] GET https://api.github.com/repos/tehen1-hbhjb/actions/secrets/public-key type=owner
+[debug] [2025-08-24T02:52:21.935Z] <<< [apiv2][status] GET https://api.github.com/repos/tehen1-hbhjb/actions/secrets/public-key 404
+[debug] [2025-08-24T02:52:21.935Z] <<< [apiv2][body] GET https://api.github.com/repos/tehen1-hbhjb/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-08-24T02:52:25.965Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2025-08-24T02:52:26.165Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2025-08-24T02:52:26.165Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-08-24T02:52:28.179Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2025-08-24T02:52:28.396Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2025-08-24T02:52:28.397Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-08-24T02:52:47.762Z] >>> [apiv2][query] GET https://api.github.com/repos/firebase-tools/actions/secrets/public-key type=owner
+[debug] [2025-08-24T02:52:47.966Z] <<< [apiv2][status] GET https://api.github.com/repos/firebase-tools/actions/secrets/public-key 404
+[debug] [2025-08-24T02:52:47.966Z] <<< [apiv2][body] GET https://api.github.com/repos/firebase-tools/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-08-24T02:53:08.833Z] >>> [apiv2][query] GET https://api.github.com/repos/89cf50f02ac6aaed3484/actions/secrets/public-key type=owner
+[debug] [2025-08-24T02:53:09.032Z] <<< [apiv2][status] GET https://api.github.com/repos/89cf50f02ac6aaed3484/actions/secrets/public-key 404
+[debug] [2025-08-24T02:53:09.032Z] <<< [apiv2][body] GET https://api.github.com/repos/89cf50f02ac6aaed3484/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
